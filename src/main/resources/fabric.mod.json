@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "no-minecraft",
+  "version": "${version}",
+  "name": "No Minecraft",
+  "description": "No Minecraft",
+  "authors": [
+    "MrMelon54"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/no-minecraft/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.onpointcoding.nominecraft.client.NoMinecraftClient"
+    ]
+  },
+  "mixins": [
+    "no-minecraft.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric": "*",
+    "minecraft": "1.17"
+  }
+}
