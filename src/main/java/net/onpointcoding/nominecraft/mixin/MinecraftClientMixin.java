@@ -1,9 +1,12 @@
 package net.onpointcoding.nominecraft.mixin;
 
+import net.minecraft.block.AnvilBlock;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.RunArgs;
+import net.minecraft.client.font.RenderableGlyph;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.util.Window;
+import net.minecraft.entity.Entity;
 import net.onpointcoding.nominecraft.client.NoGameScreen;
 import net.onpointcoding.nominecraft.client.NoMinecraftClient;
 import org.jetbrains.annotations.Nullable;
